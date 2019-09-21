@@ -33,4 +33,9 @@ public class Books {
         setIsbn(isbn);
     }
 
+    @Override
+    public String toString() {
+        return "Book Name:\t" + getBookName() + "\nAuthor Name:\t" + getAuthorName() + "\nISBN:\t" + getIsbn();
+    }
+
 }
